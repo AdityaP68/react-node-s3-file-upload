@@ -4,7 +4,7 @@ import Upload from "./components/Upload";
 import useMutation from "./hooks/useMutation";
 
 const validFileTypes = ["image/jpg", "image/jpeg", "image/png"];
-const URL = "/images";
+const URL = "http://localhost:8000/image/upload/";
 
 function App() {
   const {

@@ -17,6 +17,7 @@ const useMutation = ({ url, method = "POST" }) => {
       method: method,
       url: url,
       data: data,
+      headers: {'x-user-id': 1234}
     })
       .then(() => {
         setState({ isLoading: false, error: "" });
